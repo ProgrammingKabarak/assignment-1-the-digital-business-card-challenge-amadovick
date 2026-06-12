@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Business Card</title>
+    <title>Victor Kibet - Business Card</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: purple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            width: 350px;
+            box-shadow: 0 5px 15px black;
+        }
+        img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        h1 {
+            margin: 10px 0;
+        }
+        .contact {
+            margin: 15px 0;
+        }
+        button {
+            background: purple;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-
-    <h1>Victor Kibet</h1>
-
-    <img src="profile.jpg" alt="Photo of Victor Kibet" width="200">
-
-    <p>BBIT Student at Kabarak University</p>
-    <p>Email: victorkibet@example.com</p>
-
-    <h2>Experience</h2>
-    <p>Interested in business technology and web development.</p>
-
+    <div class="card">
+        <img src="https://ui-avatars.com/api/?name=Victor+K&background=purple&color=white" alt="Victor">
+        <h1>Victor Kibet</h1>
+        <p>BBIT Student at Kabarak University</p>
+        <div class="contact">
+            <p>📧 victorkibet@example.com</p>
+            <p>📞 +254 700 123 456</p>
+        </div>
+        <p>Interested in business technology and web development</p>
+        <button>Contact Me</button>
+    </div>
 </body>
 </html>
